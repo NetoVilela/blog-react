@@ -5,7 +5,7 @@ export const LightTheme = createTheme({
     primary: {
       main: '#4183D9',
       dark: '#5068F2',
-      contrastText: '#FFFFFF',
+      contrastText: '#000',
     },
     secondary: {
       main: '#30D9D9',

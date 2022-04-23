@@ -1,5 +1,5 @@
 import { MenuTop } from '../MenuTop/MenuTop';
-
+import { Footer } from '../Footer/Footer';
 interface IProps {
   children?: React.ReactNode;
 }
@@ -11,6 +11,7 @@ export const Layout: React.FC<IProps> = ({ children }) => {
     <>
       <MenuTop />
       {children}
+      <Footer />
     </>
 
   );

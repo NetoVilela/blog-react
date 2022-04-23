@@ -6,5 +6,7 @@ export const StyledContainer = styled(Container)`
   margin-top: 10px;
   padding: 20px;
   background-color: ${LightTheme.palette.background.paper};
-  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

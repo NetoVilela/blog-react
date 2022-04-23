@@ -59,7 +59,7 @@ export const MenuTop: React.FC = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+            sx={{ mr: 2, color: 'white', display: { xs: 'none', md: 'flex' } }}
           >
             Blog ReactJS
           </Typography>
@@ -105,7 +105,7 @@ export const MenuTop: React.FC = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+            sx={{ flexGrow: 1, color: 'white', display: { xs: 'flex', md: 'none' } }}
           >
             Blog ReactJS
           </Typography>
